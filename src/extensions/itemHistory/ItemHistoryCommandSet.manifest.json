@@ -1,0 +1,21 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+
+  "id": "f6b9bab2-00a1-4ff1-8bc2-04fea3d64fed",
+  "alias": "ItemHistoryCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+
+  "items": {
+    "COMMAND_ViewHistory": {
+      "title": { "default": "Historia procesu" },
+      "iconImageUrl":"data:image/png;base64,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",
+      "type": "command"
+    }
+  }
+}
